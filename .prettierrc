@@ -11,6 +11,7 @@
   "jsxSingleQuote": true,
   "jsxBracketSameLine": false,
   "endOfLine": "auto",
+  "vueIndentScriptAndStyle": true,
   "overrides": [
     {
       "files": "*.md",
