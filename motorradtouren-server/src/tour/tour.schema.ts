@@ -22,6 +22,9 @@ export class Tour extends Document {
 
    @Prop()
    gpxUrl: string;
+
+   @Prop({ default: 0 })
+   viewCount: number;
 }
 
 export const TourSchema = SchemaFactory.createForClass(Tour);
