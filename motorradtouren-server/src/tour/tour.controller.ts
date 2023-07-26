@@ -13,8 +13,7 @@ export class TourController {
   )
   create(
     @Body() createTourDto: CreateTourDto,
-    @UploadedFiles()
-    files: { tourGpx: Express.Multer.File; tourImage: Express.Multer.File },
+    @UploadedFiles() files: { gpx: Express.Multer.File; image: Express.Multer.File },
   ) {
     console.log(files);
   }
